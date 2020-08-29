@@ -5,7 +5,7 @@ This simple maven repository is used for the purpose of demonstrating the testNG
 To run this Java application, you need to have installed below two applications and they need to be configured as environment variables
 
 1. Java 8 ( refer this[1] document for setting java into path)
-2. Maven 3.0 ( refer this[2] doc for more information)
+2. Maven 3.x.x ( refer this[2] doc for more information)
 
 After installing the above two, please follow the below instructions
 
