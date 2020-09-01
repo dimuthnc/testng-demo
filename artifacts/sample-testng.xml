@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="TestNgMavenExampleSuite" parallel="false">
     <test name="TestNgMavenTest">
-        <!--        <groups>-->
-        <!--            <run>-->
-        <!--                <include name = "fast" />-->
-        <!--            </run>-->
-        <!--        </groups>-->
-        <classes>
-            <class name="org.dimuth.testng.demo.test.PropertyFileReaderTest"/>
-            <class name="org.dimuth.testng.demo.test.OperatorTest"/>
-        </classes>
     </test>
 </suite>
