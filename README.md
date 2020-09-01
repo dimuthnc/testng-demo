@@ -40,20 +40,19 @@ Process finished with exit code 0
      <artifactId>mockito-all</artifactId>
      <version>1.10.19</version>
      <scope>test</scope>
- </dependency>
-`
+ </dependency>`
 * Maven Surefire Plugin </br>
 
-`        <plugin>
-                 <groupId>org.apache.maven.plugins</groupId>
-                 <artifactId>maven-surefire-plugin</artifactId>
-                 <version>3.0.0-M1</version>
-                 <configuration>
-                     <suiteXmlFiles>
-                         <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
-                     </suiteXmlFiles>
-                 </configuration>
-             </plugin>
+`<plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-surefire-plugin</artifactId>
+  <version>3.0.0-M1</version>
+  <configuration>
+  <suiteXmlFiles>
+      <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+  </suiteXmlFiles>
+  </configuration>
+</plugin>
 `
 
 
