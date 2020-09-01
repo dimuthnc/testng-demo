@@ -8,8 +8,8 @@ public class PropertyReader {
     Properties properties;
 
     public PropertyReader(String configFileName) throws IOException {
-
-        this.properties.load(this.getClass().getClassLoader().getResourceAsStream(configFileName));
+        properties = new Properties();
+        this.properties.load(PropertyReader.class.getClassLoader().getResourceAsStream(configFileName));
 
     }
 
