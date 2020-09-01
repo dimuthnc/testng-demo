@@ -8,12 +8,13 @@ public class PropertyReader {
     Properties properties;
 
     public PropertyReader(String configFileName) throws IOException {
+
         properties = new Properties();
         this.properties.load(PropertyReader.class.getClassLoader().getResourceAsStream(configFileName));
 
     }
 
-    public String[] getValues() throws IOException {
+    public String[] getValues() {
 
         String value1 = readProperty("value1");
         String value2 = readProperty("value2");
