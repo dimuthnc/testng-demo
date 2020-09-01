@@ -22,3 +22,39 @@ Process finished with exit code 0
 </code>
 [1] - https://www.java.com/en/download/help/path.xml
 [2] - https://www.baeldung.com/install-maven-on-windows-linux-mac
+
+## Useful commands and artifacts
+
+* To clone the project <br>
+<code>git clone https://github.com/dimuthnc/testng-demo.git</code>
+* TestNG Dependency <br>
+`<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.3.0</version>
+    <scope>test</scope>
+</dependency>`
+* Mockito Dependency <br>
+`<dependency>
+     <groupId>org.mockito</groupId>
+     <artifactId>mockito-all</artifactId>
+     <version>1.10.19</version>
+     <scope>test</scope>
+ </dependency>
+`
+* Maven Surefire Plugin </br>
+
+`        <plugin>
+                 <groupId>org.apache.maven.plugins</groupId>
+                 <artifactId>maven-surefire-plugin</artifactId>
+                 <version>3.0.0-M1</version>
+                 <configuration>
+                     <suiteXmlFiles>
+                         <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+                     </suiteXmlFiles>
+                 </configuration>
+             </plugin>
+`
+
+
+
